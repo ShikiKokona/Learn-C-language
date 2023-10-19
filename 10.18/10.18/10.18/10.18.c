@@ -88,9 +88,9 @@ int main()
 	while (i<=100)
 	{
 		if (i % 2 == 1)
-			printf("%d ", i);
+			printf("%d\n", i);
+		i++;
 	}
-	i++;
 
 	return 0;
 }
